@@ -1,11 +1,3 @@
-Steps to run the program 
-	1. cd Project
-	2. cd Phase4
-	3. cd src
-	4. make
-	5. ./JFS
-
-
 The main file is named as main.c. 
 The main() function can be modified for the given test cases and tested. 
 
