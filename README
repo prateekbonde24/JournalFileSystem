@@ -1,0 +1,34 @@
+Steps to run the program 
+	1. cd Project
+	2. cd Phase4
+	3. cd src
+	4. make
+	5. ./JFS
+
+
+The main file is named as main.c. 
+The main() function can be modified for the given test cases and tested. 
+
+The tfunction.c file can be modified to change the actions performed by the threads.
+
+
+The arguments of the functions are as follows:
+
+int COMMIT(int data_id,struct ActionId c);
+int ABORT(int data_id,struct ActionId c);
+int READ_CURRENT_VALUE(int data_id);
+int WRITE_NEW_VALUE(int data_id, char *new_value, struct ActionId caller_id);
+
+To make new actions: 
+ActionId a1;
+a1=NEW_ACTION(data_id);
+
+Structure of ActionId :
+	int a_id;
+	char state[20];
+
+
+	
+
+
+

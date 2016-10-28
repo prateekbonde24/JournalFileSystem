@@ -1,0 +1,18 @@
+[ LOG ]: Action id- 0  Type- BEGIN  UndoAction-   RedoAction-  
+ 
+[ LOG ]: Action id- 1  Type- BEGIN  UndoAction-   RedoAction-  
+ 
+[ LOG ]: Action id- 0  Type- CHANGE  UndoAction-   RedoAction- CAREFUL_PUT(Good1, sector.S1);CAREFUL_PUT(Good1, sector.S2);CAREFUL_PUT(Good1, sector.S3); 
+ 
+[ LOG ]: Action id- 0  Type- BEGIN  UndoAction-   RedoAction-  
+ 
+[ LOG ]: Action id- 1  Type- BEGIN  UndoAction-   RedoAction-  
+ 
+[ LOG ]: Action id- 0  Type- CHANGE  UndoAction-   RedoAction- CAREFUL_PUT(Good1, sector.S1);CAREFUL_PUT(Good1, sector.S2);CAREFUL_PUT(Good1, sector.S3); 
+ 
+[ LOG ]: Action id- 0  Type- OUTCOME  UndoAction-   RedoAction- COMMIT() 
+ 
+[ LOG ]: Action id- 1  Type- CHANGE  UndoAction-   RedoAction- CAREFUL_PUT(BAD1, sector.S1);CAREFUL_PUT(BAD1, sector.S2);CAREFUL_PUT(BAD1, sector.S3); 
+ 
+[ LOG ]: Action id- 1  Type- OUTCOME  UndoAction-   RedoAction- COMMIT() 
+ 
